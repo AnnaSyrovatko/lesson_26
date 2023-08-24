@@ -7,10 +7,10 @@ public class Circle extends Shape{
     }
 
     public double calcArea(){
-        return Math.pow(side, 2);
+        return Math.PI * Math.pow(side, 2);
     }
 
     public double calcPerimeter(){
-        return 4 * side;
+        return 2 * Math.PI * side;
     }
 }

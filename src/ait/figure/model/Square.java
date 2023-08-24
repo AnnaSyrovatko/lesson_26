@@ -6,10 +6,10 @@ public class Square extends Shape{
     }
 
     public double calcArea(){
-        return Math.PI * Math.pow(side, 2);
+        return Math.pow(side, 2);
     }
 
     public double calcPerimeter(){
-        return 2 * Math.PI * side;
+        return side * 4;
     }
 }
